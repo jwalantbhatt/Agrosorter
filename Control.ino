@@ -15,9 +15,9 @@ void setup()
 void loop() 
 { 
                       
-    myservo.write(30);              // tell servo to go to position in variable 'pos' 
-    delay(2000); 
-    myservo.write(90);
+    myservo.write(30);              // tell servo to go to position in variable 'pos'  
+    delay(2000);                     
+    myservo.write(90);              // com
     delay(2000); // waits 15ms for the servo to reach the position 
 
 } 
